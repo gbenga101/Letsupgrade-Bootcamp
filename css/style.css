@@ -7,7 +7,6 @@ body{
     background-color: #87CEEB;
     color: #fff;
     padding: 20px;
-    font-weight: bold;
 }
 nav ul{
     list-style-type: none;
@@ -19,6 +18,9 @@ nav ul li{
     display: inline-block;
     margin: 20px;
 }
+nav ul li:hover{
+    font-weight: bold;
+}
 nav ul li a{
     color: #333;
     text-decoration: none;
@@ -28,6 +30,9 @@ nav ul li a{
 }
 h1{
     font-size: 32px;
+}
+h1, p{
+    text-align: center;
 }
 h2{
     font-size: 24px;    
